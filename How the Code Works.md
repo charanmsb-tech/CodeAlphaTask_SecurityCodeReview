@@ -4,3 +4,10 @@
 - Registration: If the password is strong, it is hashed with bcrypt and stored securely in the database. Weak passwords are rejected.
 - Login: When a user logs in, the entered password is hashed and compared with the stored hash. If they match → login successful.
 - Interactive Menu: Provides options for registering, logging in, showing users, changing passwords, and deleting accounts.
+## What Happens If Password Rules Are Ignored
+- If a user tries to register with a weak password (e.g., less than 12 characters, missing uppercase, missing number, etc.), the system rejects registration and shows clear error messages.
+- This ensures that only strong passwords are stored, reducing the risk of brute‑force or dictionary attacks.
+- During login, if the wrong password is entered, bcrypt verification fails and the system shows “Invalid username or password.”
+  git add images/my_screenshot.png
+git commit -m "git add images/my_screenshot.png"
+git push
