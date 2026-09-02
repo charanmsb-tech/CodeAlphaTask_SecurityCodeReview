@@ -15,3 +15,7 @@ The system enforces strong password rules, prevents SQL injection with parameter
 1. Install dependencies:
    ```bash
    pip install bcrypt
+
+## Run the program:
+```bash
+python secure_login.py
