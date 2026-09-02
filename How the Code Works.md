@@ -8,6 +8,7 @@
 - If a user tries to register with a weak password (e.g., less than 12 characters, missing uppercase, missing number, etc.), the system rejects registration and shows clear error messages.
 - This ensures that only strong passwords are stored, reducing the risk of brute‑force or dictionary attacks.
 - During login, if the wrong password is entered, bcrypt verification fails and the system shows “Invalid username or password.”
-  git add images/my_screenshot.png
-git commit -m "git add images/my_screenshot.png"
-git push
+
+![Uploading output review.png…]()
+
+
