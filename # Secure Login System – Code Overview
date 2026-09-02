@@ -1,6 +1,0 @@
-# Secure Login Syatem
-This Python project implements a secure login system Using  SQLite for Storage and bccrypt for passward hassing.
-It demonstrate secure codng practice for authentication.
-## Feautures
-- User Registration with strong passward valiation
-- Secure Login using bcrypt hash verification
