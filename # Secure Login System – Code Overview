@@ -1,0 +1,18 @@
+# Secure Login System – Code Overview
+This Python project implements a secure login system using SQLite for storage and bcrypt for password hashing. It demonstrates secure coding practices for authentication.
+
+## Features
+- User Registration with strong password validation
+- Secure Login using bcrypt hash verification
+- SQLite database storage (no plain-text passwords)
+- Interactive menu for Register, Login, Exit
+
+## Security Highlights
+- Passwords stored as bcrypt hashes (never plain text)
+- Parameterized SQL queries prevent SQL injection
+- Password strength rules enforced
+
+## How to Run
+1. Install dependencies:
+   ```bash
+   pip install bcrypt in pycharm terminal
