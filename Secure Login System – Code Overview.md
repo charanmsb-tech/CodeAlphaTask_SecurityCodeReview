@@ -11,4 +11,7 @@ The system enforces strong password rules, prevents SQL injection with parameter
 - Passwords stored as bcrypt hashes (never plain text)
 - Parameterized SQL queries prevent SQL injection
 - Password strength rules enforced
-
+## How to Run
+1. Install dependencies:
+   ```bash
+   pip install bcrypt
