@@ -1,4 +1,4 @@
-# Secure Login System – Code Overview
+# Secure login System - Code Over View
 This Python project implements a secure login system using SQLite for storage and bcrypt for password hashing. It demonstrates secure coding practices for authentication.
 
 ## Features
