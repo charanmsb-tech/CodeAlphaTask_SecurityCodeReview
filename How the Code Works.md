@@ -9,6 +9,6 @@
 - This ensures that only strong passwords are stored, reducing the risk of brute‑force or dictionary attacks.
 - During login, if the wrong password is entered, bcrypt verification fails and the system shows “Invalid username or password.”
 
-![Uploading output review.png…]()
+
 
 
