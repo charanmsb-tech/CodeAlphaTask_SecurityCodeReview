@@ -1,0 +1,4 @@
+# Secure Login System – Code Overview
+A Python‑based secure login system that demonstrates best practices in authentication.
+It uses SQLite for local storage and bcrypt for password hashing, ensuring passwords are never stored in plain text.
+The system enforces strong password rules, prevents SQL injection with parameterized queries, and provides an interactive menu for user registration, login, and account management.
